@@ -1,6 +1,7 @@
 # NFM (Node File Manager)
+![Static Badge](https://img.shields.io/badge/NFM-NodeFileManager-green)
 
-A lightweight Node.js-based CLI tool for managing Node.js installations, packages, and simple maintenance tasks.
+A lightweight Node.js-based CLI tool for managing Node.js installations, modules, and simple maintenance tasks.
 
 ✨ Features
 
@@ -8,7 +9,7 @@ Node.js inspection
 
 nfm node list – list all files in your Node.js installation directory
 
-nfm node package list <package> – check if a package exists in your node_modules or NODE_PATH
+nfm node package list <module> – check if modules are installed in a directory (for example "express")
 
 Health & refresh
 
@@ -29,7 +30,7 @@ cdn.socket.io
 # List Node.js files
 nfm node list
 
-# Check if "express" is installed
+# Check if modules are installed in a directory (example: express)
 nfm node package list express
 
 # Restore health (only from nfm_home/bin)
@@ -52,4 +53,4 @@ npm link
 
 Now nfm is available as a global command.
 
-🔒 Note: restore health and refresh are intentionally locked to run only inside nfm_home/bin for security reasons.
+🔒 Note: restore health and refresh are intentionally locked to run only inside nfm_home/bin for safety.
