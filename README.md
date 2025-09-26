@@ -54,3 +54,5 @@ npm link
 Now nfm is available as a global command.
 
 🔒 Note: restore health and refresh are intentionally locked to run only inside nfm_home/bin for safety.
+
+Open a command prompt in the directory nfm, Then do install.cmd, Then cd to nfm_home then cd to bin, Then run nfm.cmd using the command prompt.
